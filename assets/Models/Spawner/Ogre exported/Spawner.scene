@@ -1,0 +1,156 @@
+<scene exported_by="lohnn" formatVersion="1.0.1" previous_export_time="0" export_time="1343751109.424" >
+	<nodes >
+		<node name="Plane.001" uuid="c5b4aae43f89a7c5157711494f589618" >
+			<position y="1.382781" x="0.000000" z="0.341837" />
+			<rotation qy="0.000000" qx="0.707107" qz="-0.000000" qw="0.707107" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Plane.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Plane" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="Plane" uuid="de6ceecdf4ee491da3b5bb5b7fd49267" >
+			<position y="0.000000" x="0.000000" z="-0.000000" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="2.000000" x="2.000000" z="2.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Plane.001.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Plane.001" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="CaveSystem" uuid="3a9f64df573d60040440829a98e26efd" >
+			<position y="0.877994" x="0.000000" z="-1.776285" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="0.837262" x="0.837262" z="0.837262" />
+			<user_data type="Blender IDProperty" name="coat3D" value="<bpy id property from "OBCaveSystem">" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Mesh.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Mesh" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="Skeleton_door_right" uuid="fdeda31e8c1fd984c266814e03501c3b" >
+			<position y="0.427527" x="0.980133" z="1.336377" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<node name="Armature.003" uuid="8272aece0930c065c4a83bb278d298ca" >
+				<position y="1.260204" x="-0.904193" z="0.029350" />
+				<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+				<scale y="1.000000" x="1.000000" z="1.000000" />
+				<game >
+					<sensors />
+					<actuators />
+				</game>
+				<node name="Doorhandle_right" uuid="d98743f837fb71a9b925b75e0a64dc46" >
+					<position y="1.252137" x="-0.904727" z="0.029639" />
+					<rotation qy="-0.000000" qx="1.000000" qz="-0.000000" qw="0.000001" />
+					<scale y="0.508034" x="0.508034" z="0.508034" />
+					<game >
+						<sensors />
+						<actuators />
+					</game>
+					<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Plane.006.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Plane.006" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+				</node>
+			</node>
+			<node name="Door_right" uuid="0a69d6227ececc15e596b1a4143f02dd" >
+				<position y="-0.021458" x="0.019867" z="-0.054488" />
+				<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+				<scale y="1.000000" x="1.000000" z="1.000000" />
+				<game >
+					<sensors />
+					<actuators />
+				</game>
+				<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Plane.005.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Plane.005" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+			</node>
+		</node>
+		<node name="Skeleton_door_left" uuid="c40f631f3a4e4c5ac6f527f9f716ec3b" >
+			<position y="0.427527" x="-0.990427" z="1.336377" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<node name="Armature.002" uuid="9fe9d5ed44b2ae18b5769c28d07ae902" >
+				<position y="1.260204" x="0.914677" z="0.029350" />
+				<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+				<scale y="1.000000" x="1.000000" z="1.000000" />
+				<game >
+					<sensors />
+					<actuators />
+				</game>
+				<node name="Doorhandle_left" uuid="0ba2992f58bbdabff5530ffba8f87328" >
+					<position y="1.252137" x="0.912048" z="0.029639" />
+					<rotation qy="-0.000000" qx="1.000000" qz="-0.000000" qw="0.000001" />
+					<scale y="0.508034" x="0.508034" z="0.508034" />
+					<game >
+						<sensors />
+						<actuators />
+					</game>
+					<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Plane.004.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Plane.004" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+				</node>
+			</node>
+			<node name="Door_left" uuid="ca22b2e24d98e71133c93f914a2d3e07" >
+				<position y="-0.021458" x="-0.009573" z="-0.054488" />
+				<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+				<scale y="1.000000" x="1.000000" z="1.000000" />
+				<game >
+					<sensors />
+					<actuators />
+				</game>
+				<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Plane.003.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Plane.003" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+			</node>
+		</node>
+		<node name="Stairs" uuid="12ef28a5e3163fead785e8163490e8f6" >
+			<position y="0.222617" x="0.000000" z="1.611364" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="1.000000" x="0.788336" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Plane.002.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Plane.002" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="Pillars" uuid="a26945cfe371907e12ce268cb4d92ffc" >
+			<position y="0.500000" x="1.000000" z="2.000000" />
+			<rotation qy="0.707107" qx="0.000000" qz="-0.000000" qw="0.707107" />
+			<scale y="0.500000" x="0.500000" z="0.500000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Cube.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Cube" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+	</nodes>
+	<externals >
+		<item type="material" >
+			<file name="E:\Dropbox\3D-programmering\Dungeon Master\assets\Models\Spawner\Ogre exported\Ground_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="E:\Dropbox\3D-programmering\Dungeon Master\assets\Models\Spawner\Ogre exported\Rock_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="E:\Dropbox\3D-programmering\Dungeon Master\assets\Models\Spawner\Ogre exported\Dark metal.material" />
+		</item>
+		<item type="material" >
+			<file name="E:\Dropbox\3D-programmering\Dungeon Master\assets\Models\Spawner\Ogre exported\Dark Wood.material" />
+		</item>
+		<item type="material" >
+			<file name="E:\Dropbox\3D-programmering\Dungeon Master\assets\Models\Spawner\Ogre exported\Stair_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="E:\Dropbox\3D-programmering\Dungeon Master\assets\Models\Spawner\Ogre exported\Pillar_mat.material" />
+		</item>
+	</externals>
+	<environment >
+		<colourBackground r="0.0" b="0.0" g="0.0" />
+		<colourAmbient r="0.0" b="0.0" g="0.0" />
+		<colourDiffuse r="0.0" b="0.0" g="0.0" />
+	</environment>
+</scene>

@@ -1,0 +1,6 @@
+Material Unused floor texture : Common/MatDefs/Misc/Unshaded.j3md {
+     MaterialParameters {
+     }
+    AdditionalRenderState {
+    }
+}

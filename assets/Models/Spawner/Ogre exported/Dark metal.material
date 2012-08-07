@@ -1,0 +1,16 @@
+material Dark metal 
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			ambient 0.0159936361014843 0.0159936361014843 0.0159936361014843 1.0
+			diffuse 0.012487338926826741 0.012487338926826741 0.012487338926826741 1.0
+			specular 0.5 0.5 0.5 1.0 12.5
+			emissive 0.0 0.0 0.0 1.0
+			scene_blend one zero
+		}
+	}
+}

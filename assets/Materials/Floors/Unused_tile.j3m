@@ -1,0 +1,11 @@
+Material Unused_tile : MatDefs/Lighting_color.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/Floors/Unused/Unused floor_texture.png
+        KeyMap : Textures/Floors/Unused/Unused floor_specularMap.png
+        NormalMap : Textures/Floors/Unused/Unused floor_normalMap.png
+        SpecularMap : Textures/Floors/Unused/Unused floor_specularMap.png
+        KeyStrength : 0.5
+     }
+    AdditionalRenderState {
+    }
+}

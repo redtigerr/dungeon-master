@@ -1,0 +1,9 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip Textures/Dungeon Heart/Dungeon Heart-floor Texture.png
+        NormalMap : Flip Textures/Dungeon Heart/Dungeon Heart-floor NM.png
+        Shininess : 1.9999999
+     }
+    AdditionalRenderState {
+    }
+}

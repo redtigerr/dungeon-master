@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty xmlns="http://nifty-gui.sourceforge.net/nifty.xsd" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:schemaLocation="http://nifty-gui.sourceforge.net/nifty.xsd">
+
+    <screen id="QuickSlotList">
+        <layer id="background" backgroundColor="#0000">
+      <!-- ... -->
+        </layer>
+        <layer id="foreground" backgroundColor="#0000" childLayout="horizontal">
+            <panel id="panel_left" width="110px" height="100%" childLayout="vertical"  backgroundColor="#000f">
+                <effect>
+                    <onStartScreen name="move" mode="in" direction="left" length="300" startDelay="200" inherit="true"/>
+                    <onEndScreen name="move" mode="out" direction="left" length="300" startDelay="0" inherit="true"/>
+                </effect>
+                <panel width="100%" height="100%" childLayout="vertical"  backgroundColor="#5553">
+                <!-- 1 -->
+                    <panel id="quick_1" width="100%" height="110px" childLayout="center" backgroundColor="#0000" y="10px" visibleToMouse="true">
+                        <effect>
+                            <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+<!--                        <onHover name="hide" targetElement="selectionArea" />-->
+                            <onClick name="show" targetElement="selectionArea" />
+                        </effect>
+                        <image filename="Textures/Floors/Dirt/Dirt-Texture-1024x1024.jpg" valign="center" align="center" height="90px" width="90px">
+                        </image>
+                    </panel>
+                <!-- 2 -->
+                    <panel id="quick_2" width="100%" height="110px" childLayout="center" backgroundColor="#0000">
+                        <effect>
+                            <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                        </effect>
+                        <image filename="Textures/Floors/Unused/Unused floor_texture.png" valign="center" align="center" height="90px" width="90px" childLayout="center">
+                            <panel id="test" width="100%" height="100%" childLayout="center" backgroundColor="#0000">
+                            </panel>
+                        </image>
+                    </panel>
+                <!-- 3 -->
+                    <panel id="quick_3" width="100%" height="110px" childLayout="center" backgroundColor="#0000">
+                        <effect>
+                            <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                        </effect>
+                        <image filename="Interface/Images/StoneWall.png" valign="center" align="center" height="90px" width="90px" childLayout="center">
+                            <panel id="test" width="100%" height="100%" childLayout="center" backgroundColor="#0000">
+                            </panel>
+                        </image>
+                    </panel>
+                <!-- 4 -->
+                    <panel id="quick_4" width="100%" height="110px" childLayout="center" backgroundColor="#0000">
+                        <effect>
+                            <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                        </effect>
+                        <image filename="Interface/Images/DungeonHeart.png" valign="center" align="center" height="90px" width="90px" childLayout="center">
+                            <panel id="test" width="100%" height="100%" childLayout="center" backgroundColor="#0000">
+                            </panel>
+                        </image>
+                    </panel>
+                <!-- 5 -->
+                    <panel id="quick_5" width="100%" height="110px" childLayout="center" backgroundColor="#0000">
+                        <effect>
+                            <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                        </effect>
+                        <image filename="Textures/Floors/Unused/Unused floor_texture.png" valign="center" align="center" height="90px" width="90px" childLayout="center" >
+                            <panel id="test" width="100%" height="100%" childLayout="center" backgroundColor="#0000">
+                            </panel>
+                        </image>
+                    </panel>
+                </panel>
+            </panel>
+        </layer>
+        
+        <layer id="selectionLayer" backgroundColor="#0000" childLayout="absolute">
+            <!--Arrow-->
+            <panel width="15px" height="30px" childLayout="center" x="125px" y="80px" backgroundColor="#0000">
+                <effect>
+<!--                    <onActive name="hide" />-->
+                    <onStartScreen name="move" mode="in" direction="left" length="300" startDelay="200" inherit="true"/>
+                    <onEndScreen name="move" mode="out" direction="left" length="300" startDelay="0" inherit="true"/>
+                </effect>
+                <image filename="Interface/Images/Arrow.png" valign="center" align="center" height="30px" width="16px" childLayout="center" />
+            </panel>
+            
+            <panel id="selectionArea" width="500px" height="400px" x="140px" y="80px" childLayout="vertical" backgroundColor="#000f" visibleToMouse="true">
+                <effect>
+<!--                    <onActive name="hide" />-->
+                    <onStartScreen name="move" mode="in" direction="left" length="300" startDelay="200" inherit="true"/>
+                    <onEndScreen name="move" mode="out" direction="left" length="300" startDelay="0" inherit="true"/>
+                </effect>
+                <panel width="100%" height="100%" childLayout="vertical"  backgroundColor="#5553">
+                    <panel id="selectionAreaRow#1" width="100%" height="100px" childLayout="horizontal" backgroundColor="#0000" visibleToMouse="true">
+                <!--<effect>
+                   <onHover name="hide" />
+                </effect>-->            
+                        <panel id="alternative#1" width="100px" height="100px" childLayout="center" backgroundColor="#5552">
+                            <effect>
+                                <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                            </effect>
+                        </panel>
+                        <panel id="alternative#1" width="100px" height="100px" childLayout="center" backgroundColor="#5552">
+                            <effect>
+                                <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                            </effect>
+                        </panel>
+                        <panel id="alternative#1" width="100px" height="100px" childLayout="center" backgroundColor="#5552">
+                            <effect>
+                                <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                            </effect>
+                        </panel>
+                        <panel id="alternative#1" width="100px" height="100px" childLayout="center" backgroundColor="#5552">
+                            <effect>
+                                <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                            </effect>
+                        </panel>
+                        <panel id="alternative#1" width="100px" height="100px" childLayout="center" backgroundColor="#5552">
+                            <effect>
+                                <onActive name="border" border="1px" color="#000f" timeType="infinite" />
+                            </effect>
+                        </panel>
+                    </panel>
+                </panel>
+            </panel>
+        </layer>
+    </screen>
+</nifty>

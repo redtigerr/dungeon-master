@@ -1,0 +1,9 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip Models/Weapons/Textures/Handle-Texture.png
+        Shininess : 3.0
+        ParallaxMap : Flip Models/Weapons/Textures/Handle-Texture.png
+     }
+    AdditionalRenderState {
+    }
+}

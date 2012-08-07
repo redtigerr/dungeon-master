@@ -1,0 +1,9 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip Textures/Walls/StoneWall.png
+        NormalMap : Flip Textures/Walls/StoneWall_NM.png
+        Shininess : 0.5
+     }
+    AdditionalRenderState {
+    }
+}

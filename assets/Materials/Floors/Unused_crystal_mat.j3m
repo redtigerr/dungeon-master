@@ -1,0 +1,7 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        Shininess : 20.0
+     }
+    AdditionalRenderState {
+    }
+}

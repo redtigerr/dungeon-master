@@ -1,0 +1,8 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip Textures/Dungeon Heart/Dungeon Heart-tube Texture.png
+        NormalMap : Flip Textures/Dungeon Heart/Dungeon Heart-tube NM.png
+     }
+    AdditionalRenderState {
+    }
+}

@@ -1,0 +1,9 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/Floors/creme limes. chiseled 12 x 12 ifmtumbc.jpg
+        NormalMap : Textures/Floors/creme limes. chiseled 12 x 12 ifmtumbc_norm.jpg
+        Shininess : 10.6
+     }
+    AdditionalRenderState {
+    }
+}

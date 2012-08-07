@@ -1,0 +1,16 @@
+material Dark Wood 
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			ambient 0.08000842481851578 0.03948959708213806 0.012202894315123558 1.0
+			diffuse 0.06400674080858737 0.03159167813646313 0.009762315597568683 1.0
+			specular 0.5 0.5 0.5 1.0 12.5
+			emissive 0.0 0.0 0.0 1.0
+			scene_blend one zero
+		}
+	}
+}

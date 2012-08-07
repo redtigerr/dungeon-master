@@ -1,0 +1,9 @@
+Material Unused_tile : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Repeat Textures/Floors/Dirt/Dirt-Texture-1024x1024.jpg
+        Shininess : 20.0
+        NormalMap : Repeat Textures/Floors/Dirt/Dirt-Texture-1024x1024_norm.jpg
+     }
+    AdditionalRenderState {
+    }
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mesh>
+    <sharedgeometry vertexcount="28">
+        <vertexbuffer texture_coords="0" positions="true" colours_diffuse="False" normals="true">
+            <vertex>
+                <position y="-0.957836" x="3.045150" z="-0.000000"/>
+                <normal y="0.003774" x="0.311996" z="-0.950076"/>
+            </vertex>
+            <vertex>
+                <position y="-0.957836" x="0.000000" z="-1.000000"/>
+                <normal y="0.003774" x="0.311996" z="-0.950076"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-0.000000" z="-0.489826"/>
+                <normal y="0.003774" x="0.311996" z="-0.950076"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="1.500138" z="0.002806"/>
+                <normal y="0.003774" x="0.311996" z="-0.950076"/>
+            </vertex>
+            <vertex>
+                <position y="-0.957836" x="-0.000000" z="0.991623"/>
+                <normal y="0.003693" x="0.310415" z="0.950594"/>
+            </vertex>
+            <vertex>
+                <position y="-0.957836" x="3.045150" z="-0.000000"/>
+                <normal y="0.003693" x="0.310415" z="0.950594"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="1.500138" z="0.002806"/>
+                <normal y="0.003693" x="0.310415" z="0.950594"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-0.000000" z="0.495438"/>
+                <normal y="0.003693" x="0.310415" z="0.950594"/>
+            </vertex>
+            <vertex>
+                <position y="-0.957836" x="-3.045149" z="-0.000000"/>
+                <normal y="0.003693" x="-0.310415" z="0.950594"/>
+            </vertex>
+            <vertex>
+                <position y="-0.957836" x="-0.000000" z="0.991623"/>
+                <normal y="0.003693" x="-0.310415" z="0.950594"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-0.000000" z="0.495438"/>
+                <normal y="0.003693" x="-0.310415" z="0.950594"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-1.500139" z="0.002806"/>
+                <normal y="0.003693" x="-0.310415" z="0.950594"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-1.500139" z="0.002806"/>
+                <normal y="0.003774" x="-0.311996" z="-0.950076"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-0.000000" z="-0.489826"/>
+                <normal y="0.003774" x="-0.311996" z="-0.950076"/>
+            </vertex>
+            <vertex>
+                <position y="-0.957836" x="0.000000" z="-1.000000"/>
+                <normal y="0.003774" x="-0.311996" z="-0.950076"/>
+            </vertex>
+            <vertex>
+                <position y="-0.957836" x="-3.045149" z="-0.000000"/>
+                <normal y="0.003774" x="-0.311996" z="-0.950076"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-1.500139" z="0.002806"/>
+                <normal y="0.142269" x="-0.308825" z="-0.940418"/>
+            </vertex>
+            <vertex>
+                <position y="130.715256" x="-0.000000" z="0.000000"/>
+                <normal y="0.142269" x="-0.308825" z="-0.940418"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-0.000000" z="-0.489826"/>
+                <normal y="0.142269" x="-0.308825" z="-0.940418"/>
+            </vertex>
+            <vertex>
+                <position y="130.715256" x="-0.000000" z="0.000000"/>
+                <normal y="0.142269" x="0.308825" z="-0.940418"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="1.500138" z="0.002806"/>
+                <normal y="0.142269" x="0.308825" z="-0.940418"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-0.000000" z="-0.489826"/>
+                <normal y="0.142269" x="0.308825" z="-0.940418"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="1.500138" z="0.002806"/>
+                <normal y="0.143865" x="0.308753" z="0.940199"/>
+            </vertex>
+            <vertex>
+                <position y="130.715256" x="-0.000000" z="0.000000"/>
+                <normal y="0.143865" x="0.308753" z="0.940199"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-0.000000" z="0.495438"/>
+                <normal y="0.143865" x="0.308753" z="0.940199"/>
+            </vertex>
+            <vertex>
+                <position y="130.715256" x="-0.000000" z="0.000000"/>
+                <normal y="0.143865" x="-0.308753" z="0.940199"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-1.500139" z="0.002806"/>
+                <normal y="0.143865" x="-0.308753" z="0.940199"/>
+            </vertex>
+            <vertex>
+                <position y="127.477432" x="-0.000000" z="0.495438"/>
+                <normal y="0.143865" x="-0.308753" z="0.940199"/>
+            </vertex>
+        </vertexbuffer>
+    </sharedgeometry>
+    <submeshes>
+        <submesh usesharedvertices="true" material="Metal" use32bitindexes="False">
+            <faces count="12">
+                <face v1="0" v2="1" v3="2"/>
+                <face v1="0" v2="2" v3="3"/>
+                <face v1="4" v2="5" v3="6"/>
+                <face v1="4" v2="6" v3="7"/>
+                <face v1="8" v2="9" v3="10"/>
+                <face v1="8" v2="10" v3="11"/>
+                <face v1="12" v2="13" v3="14"/>
+                <face v1="12" v2="14" v3="15"/>
+                <face v1="16" v2="17" v3="18"/>
+                <face v1="19" v2="20" v3="21"/>
+                <face v1="22" v2="23" v3="24"/>
+                <face v1="25" v2="26" v3="27"/>
+            </faces>
+        </submesh>
+    </submeshes>
+</mesh>
